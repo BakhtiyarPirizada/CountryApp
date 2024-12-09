@@ -11,12 +11,18 @@
 		7FD2781B2D04452F00D1F55A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD278162D04452F00D1F55A /* LaunchScreen.storyboard */; };
 		7FD2781C2D04452F00D1F55A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278102D04452F00D1F55A /* AppDelegate.swift */; };
 		7FD2781D2D04452F00D1F55A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278112D04452F00D1F55A /* SceneDelegate.swift */; };
-		7FD2781E2D04452F00D1F55A /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278172D04452F00D1F55A /* MainController.swift */; };
+		7FD2781E2D04452F00D1F55A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278172D04452F00D1F55A /* HomeController.swift */; };
 		7FD278242D04465F00D1F55A /* CoreAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278202D04465F00D1F55A /* CoreAPIManager.swift */; };
 		7FD278252D04465F00D1F55A /* CoreAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278212D04465F00D1F55A /* CoreAPIHelper.swift */; };
 		7FD278262D04465F00D1F55A /* CoreErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278222D04465F00D1F55A /* CoreErrorModel.swift */; };
 		7FD278282D0446D700D1F55A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278272D0446D700D1F55A /* TabBarController.swift */; };
-		7FD2783F2D04480C00D1F55A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7FD2783E2D04480C00D1F55A /* RealmSwift */; };
+		7FD2787D2D0454E800D1F55A /* UserDefolutsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278782D0454E800D1F55A /* UserDefolutsHelper.swift */; };
+		7FD2787E2D0454E800D1F55A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2787A2D0454E800D1F55A /* Extensions.swift */; };
+		7FD2787F2D0454E800D1F55A /* UserDefolutsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278772D0454E800D1F55A /* UserDefolutsKeys.swift */; };
+		7FD278802D0454E800D1F55A /* LayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2787B2D0454E800D1F55A /* LayoutExtension.swift */; };
+		7FD278812D0454E800D1F55A /* ReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278752D0454E800D1F55A /* ReusableButton.swift */; };
+		7FD278822D0454E800D1F55A /* ReusableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278732D0454E800D1F55A /* ReusableLabel.swift */; };
+		7FD278832D0454E800D1F55A /* ReusableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD278742D0454E800D1F55A /* ReusableText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +31,19 @@
 		7FD278132D04452F00D1F55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FD278142D04452F00D1F55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FD278152D04452F00D1F55A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7FD278172D04452F00D1F55A /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		7FD278172D04452F00D1F55A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		7FD278202D04465F00D1F55A /* CoreAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAPIManager.swift; sourceTree = "<group>"; };
 		7FD278212D04465F00D1F55A /* CoreAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAPIHelper.swift; sourceTree = "<group>"; };
 		7FD278222D04465F00D1F55A /* CoreErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreErrorModel.swift; sourceTree = "<group>"; };
 		7FD278272D0446D700D1F55A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		7FD278402D044B1A00D1F55A /* CountryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD278732D0454E800D1F55A /* ReusableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableLabel.swift; sourceTree = "<group>"; };
+		7FD278742D0454E800D1F55A /* ReusableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableText.swift; sourceTree = "<group>"; };
+		7FD278752D0454E800D1F55A /* ReusableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableButton.swift; sourceTree = "<group>"; };
+		7FD278772D0454E800D1F55A /* UserDefolutsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefolutsKeys.swift; sourceTree = "<group>"; };
+		7FD278782D0454E800D1F55A /* UserDefolutsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefolutsHelper.swift; sourceTree = "<group>"; };
+		7FD2787A2D0454E800D1F55A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7FD2787B2D0454E800D1F55A /* LayoutExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutExtension.swift; sourceTree = "<group>"; };
+		7FDB08DE2D07128B002E9541 /* CountryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CountryApp.app; path = "/Users/bakhtiyarpirizada/Desktop/RegisterScene/CountryApp/build/Debug-iphoneos/CountryApp.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FD2783F2D04480C00D1F55A /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				7FD278182D04452F00D1F55A /* CountryApp */,
-				7FD278402D044B1A00D1F55A /* CountryApp.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,11 +77,11 @@
 			isa = PBXGroup;
 			children = (
 				7FD278122D04452F00D1F55A /* App */,
-				7FD278232D04465F00D1F55A /* Core */,
+				7FD278472D0451FF00D1F55A /* NetworkLayer */,
+				7FD278482D04524400D1F55A /* Presentation */,
+				7FD2784A2D0453D300D1F55A /* Helpers */,
 				7FD2781F2D04454100D1F55A /* Resources */,
 				7FD278142D04452F00D1F55A /* Info.plist */,
-				7FD278172D04452F00D1F55A /* MainController.swift */,
-				7FD278272D0446D700D1F55A /* TabBarController.swift */,
 			);
 			path = CountryApp;
 			sourceTree = "<group>";
@@ -94,6 +105,101 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		7FD278412D0450F600D1F55A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7FD278452D04518C00D1F55A /* TabBar */,
+				7FD278422D04511500D1F55A /* Home */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7FD278422D04511500D1F55A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7FD278172D04452F00D1F55A /* HomeController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7FD278452D04518C00D1F55A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7FD278272D0446D700D1F55A /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		7FD278462D0451C500D1F55A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		7FD278472D0451FF00D1F55A /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				7FD278232D04465F00D1F55A /* Core */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		7FD278482D04524400D1F55A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				7FD278492D0452B900D1F55A /* Core */,
+				7FD278462D0451C500D1F55A /* Auth */,
+				7FD278412D0450F600D1F55A /* Main */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		7FD278492D0452B900D1F55A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7FD2784A2D0453D300D1F55A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7FD278762D0454E800D1F55A /* ReusableElements */,
+				7FD278792D0454E800D1F55A /* Managers */,
+				7FD2787C2D0454E800D1F55A /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7FD278762D0454E800D1F55A /* ReusableElements */ = {
+			isa = PBXGroup;
+			children = (
+				7FD278732D0454E800D1F55A /* ReusableLabel.swift */,
+				7FD278742D0454E800D1F55A /* ReusableText.swift */,
+				7FD278752D0454E800D1F55A /* ReusableButton.swift */,
+			);
+			path = ReusableElements;
+			sourceTree = "<group>";
+		};
+		7FD278792D0454E800D1F55A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7FD278772D0454E800D1F55A /* UserDefolutsKeys.swift */,
+				7FD278782D0454E800D1F55A /* UserDefolutsHelper.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		7FD2787C2D0454E800D1F55A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7FD2787A2D0454E800D1F55A /* Extensions.swift */,
+				7FD2787B2D0454E800D1F55A /* LayoutExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -111,10 +217,9 @@
 			);
 			name = CountryApp;
 			packageProductDependencies = (
-				7FD2783E2D04480C00D1F55A /* RealmSwift */,
 			);
 			productName = CountryApp;
-			productReference = 7FD278402D044B1A00D1F55A /* CountryApp.app */;
+			productReference = 7FDB08DE2D07128B002E9541 /* CountryApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +247,6 @@
 			mainGroup = 7FD277EE2D0444DC00D1F55A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				7FD2783D2D04480C00D1F55A /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7FD277EE2D0444DC00D1F55A;
@@ -177,7 +281,14 @@
 				7FD278262D04465F00D1F55A /* CoreErrorModel.swift in Sources */,
 				7FD278282D0446D700D1F55A /* TabBarController.swift in Sources */,
 				7FD2781D2D04452F00D1F55A /* SceneDelegate.swift in Sources */,
-				7FD2781E2D04452F00D1F55A /* MainController.swift in Sources */,
+				7FD2787D2D0454E800D1F55A /* UserDefolutsHelper.swift in Sources */,
+				7FD2787E2D0454E800D1F55A /* Extensions.swift in Sources */,
+				7FD2787F2D0454E800D1F55A /* UserDefolutsKeys.swift in Sources */,
+				7FD278802D0454E800D1F55A /* LayoutExtension.swift in Sources */,
+				7FD278812D0454E800D1F55A /* ReusableButton.swift in Sources */,
+				7FD278822D0454E800D1F55A /* ReusableLabel.swift in Sources */,
+				7FD278832D0454E800D1F55A /* ReusableText.swift in Sources */,
+				7FD2781E2D04452F00D1F55A /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,25 +501,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		7FD2783D2D04480C00D1F55A /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		7FD2783E2D04480C00D1F55A /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FD2783D2D04480C00D1F55A /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7FD277EF2D0444DC00D1F55A /* Project object */;
 }

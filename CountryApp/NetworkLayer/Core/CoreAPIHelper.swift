@@ -1,8 +1,8 @@
 //
 //  CoreAPIHelper.swift
-//  URLSession
+//  CountryApp
 //
-//  Created by Aslanli Faqan on 22.11.24.
+//  Created by Bakhtiyar Pirizada on 07.12.24.
 //
 
 import Foundation

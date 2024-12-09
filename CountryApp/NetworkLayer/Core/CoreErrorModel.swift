@@ -1,8 +1,8 @@
 //
 //  CoreErrorModel.swift
-//  URLSession
+//  CountryApp
 //
-//  Created by Aslanli Faqan on 27.11.24.
+//  Created by Bakhtiyar Pirizada on 07.12.24.
 //
 
 import Foundation
